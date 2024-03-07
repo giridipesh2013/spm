@@ -1,0 +1,320 @@
+.dark{
+  background-color: #0e1514;
+  color:#fff;
+}
+.light{
+  background-color: #fff;
+  color:#0e1514;
+}
+nav{
+  padding: 6px 0;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: 3;
+  background-color: #0e1514;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+#landing{
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.landing-image{
+  overflow: hidden;
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.landing-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.landing-title{
+  margin-bottom: -60px;
+}
+.landing-title h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+.landing-title h2 span{
+  font-size: 24px;
+  font-weight: 300;
+}
+.red-color{
+  color:#ef1c24;
+}
+.landing-text{
+  margin-top: -30px;
+}
+.landing-text h1{
+  line-height: 1;
+  font-size: 48px;
+  font-weight: 900;
+}
+.landing-text h1 .sub{
+  display: block;
+  font-size: 32px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+#series-info{
+  padding: 40px 0;
+}
+
+.series-card{
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.series-card .series-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+
+}
+.series-card .series-image img{
+  height: 64px;
+}
+.series-card .series-image .c-image{
+  position: relative;
+}
+.series-card .series-image p{
+  margin-bottom: 0;
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  font-size: 13px;
+  font-weight: 300;
+  opacity: 0.7;
+  bottom:-20px;
+}
+.series-card .series-image .vs{
+  margin:0 15px
+}
+.series-title h3{
+  font-size: 18px;
+}
+.series-title h3 span{
+  font-size: 14px;
+  display: block;
+  margin:8px 0 16px 0;
+}
+.series-title .date{
+  font-size: 14px;
+  font-weight: 300px;
+}
+#ready-for-action h2{
+  font-size: 36px;
+  text-align: center;
+}
+#ready-for-action h2 span{
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.how-text{
+  font-size: 24px;
+  font-weight: 300;
+}
+.show-image{
+  height: 256px;
+}
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #ef1c24;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #e83434;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #e83434;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.custom-footer{
+  margin-top: 90px;
+  background-color: #3a3a3a;
+}
+.custom-footer ul li a{
+  text-decoration: none;
+  font-size: 13px;
+}
+.light nav{
+  background-color: #fff;
+}
+.light nav a{
+  color:#0e1514
+}
+.light .custom-footer{
+  background-color: #fafafa;
+}
+.light .landing-text{
+  margin-top: 10px;
+}
+#steps{
+  padding: 80px 0;
+}
+.payment_title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33.5143px;
+  line-height: 47px;
+ /* identical to box height, or 139% */
+  text-align: center;
+  color: #ed1c24;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.payment_title img {
+  display: inline-block;
+  margin-right: 5px;
+}
+.payment_title:hover {
+  opacity: 0.7;
+}
+
+#steps h3{
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+#steps h3 span{
+  font-size: 36px;
+  font-weight: 800;
+  display: block;
+}
+.step-card{
+  position: relative;
+  text-align: center;
+}
+.step-card .step-number{
+  position: relative;
+  text-align: start;
+  left: 0;
+  font-size: 48px;
+  padding-left: 45px;
+  font-weight: 900;
+}
+.step-card p{
+  font-size: 24px;
+  padding: 10px 15px;
+  font-weight: 300;
+  margin-top:10px;
+}
+@media only screen and (min-width:1400px){
+  .landing-text h1{
+    line-height: 1;
+    font-size: 64px;
+    font-weight: 900;
+  }
+  .landing-text h1 .sub{
+    display: block;
+    font-size: 42px;
+    line-height: 1;
+    font-weight: 500;
+  }
+  
+}
+
+@media only screen and (max-width:600px){
+  #landing{
+    height: auto;
+    padding: 140px 0 60px 0;
+  }
+  .landing-image{
+    width: 100%;
+    height: 100%;
+  }
+  .landing-title{
+    margin-bottom: 10px;
+  }
+  .landing-text{
+    margin-top: 15px;
+  }
+  .landing-text h1 .sub{
+    font-size: 24px;
+  }
+  .landing-text h1{
+    font-size: 28px;
+    line-height: 1.28;
+  }
+  #ready-for-action h2{
+    font-size: 24px;
+  }
+  #ready-for-action h2 span{
+    font-size: 28px;
+  }
+  .how-text{
+    margin-top: 40px;
+  }
+  .custom-footer{
+    text-align: center;
+  }
+  .foot-end{
+    text-align: center;
+  }
+  nav{
+    padding: 12px 0;
+  }
+  nav a{
+    font-size: 13px;
+  }
+  .payment_title{
+    font-size: 20px;
+  }
+}
